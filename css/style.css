@@ -1,0 +1,67 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contact form container */
+  .contact-section {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  /* Heading */
+  .contact-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Labels and inputs */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5849b8;
+  }
+  
